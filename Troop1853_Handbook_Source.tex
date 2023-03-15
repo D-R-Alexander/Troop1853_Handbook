@@ -2,6 +2,8 @@
 \usepackage{helvet}
 \usepackage[margin=1in]{geometry}
 \usepackage{url}
+\usepackage{graphicx}
+\usepackage{subfigure}
 
 \usepackage{titlesec}
 \setcounter{secnumdepth}{4}
@@ -10,12 +12,25 @@
 
 \usepackage[printonlyused]{acronym}
 
-\title{Troop 1853 Handbook}
-\date{March 1, 2023}
-%\date{\today}
 \begin{document}
 
-\maketitle
+\begin{titlepage}
+    \centering
+    \vfill
+    {\bfseries\Huge
+        Troop 1853 Handbook\\
+    }    
+    \vfill
+	\begin{figure}
+	\subfigure{\includegraphics[scale=0.25]{TroopLogo.jpg}}
+	\hfill
+	\subfigure{\includegraphics[scale=0.5]{OldMan.jpeg}}
+    \vfill
+    %\vfill
+	\end{figure}
+	March 1, 2023
+	%\today
+\end{titlepage}
 \pagenumbering{gobble}
 \newpage
 
